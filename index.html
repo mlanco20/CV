@@ -1,90 +1,152 @@
 <!doctype html>
 <html lang="sk">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Martin Lančarič — CV</title>
-<link rel="stylesheet" href="styles.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="CV – Martin Lančarič (IT Administrator / IT Consultant)" />
+  <title>Martin Lančarič — CV</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body>
+  <main class="page">
+    <!-- HEADER -->
+    <header class="header">
+      <div class="photo" aria-label="Profilová fotka">
+        <!-- Nahraj fotku do assets/photo.jpg -->
+        <img src="assets/photo.jpg" alt="Martin Lančarič" />
+      </div>
 
-<div class="container">
+      <div class="head-text">
+        <h1>Martin Lančarič</h1>
+        <div class="headline">IT Administrator / IT Consultant • Bratislava</div>
 
-<header>
-<h1>Martin Lančarič</h1>
-<div class="role">IT Administrator / IT Consultant</div>
+        <div class="contact">
+          <a href="mailto:matolanco@gmail.com">matolanco@gmail.com</a>
+          <span class="dot">•</span>
+          <a href="tel:+421904765833">+421 904 765 833</a>
+          <span class="dot">•</span>
+          <a href="https://secwatch.sk" rel="noopener">secwatch.sk</a>
+        </div>
+      </div>
 
-<div class="contact">
-<div>📧 matolanco@gmail.com</div>
-<div>📱 +421 904 765 833</div>
-<div>🌐 secwatch.sk</div>
-<div>📍 Bratislava</div>
-</div>
-</header>
+      <div class="head-actions">
+        <button class="btn" id="themeBtn" type="button" aria-label="Prepnúť režim">🌙/☀️</button>
+        <button class="btn primary" type="button" onclick="window.print()">Print / PDF</button>
+      </div>
+    </header>
 
-<section class="grid">
+    <!-- GRID -->
+    <section class="grid">
+      <!-- LEFT: main story -->
+      <section class="main">
+        <h2>Profil</h2>
+        <p class="lead">
+          IT administrátor a konzultant so <strong>7 rokmi praxe</strong> (cca <strong>200–250 používateľov</strong>)
+          so zameraním na <strong>Microsoft 365, Intune a Azure AD</strong>. Skúsenosť s migráciou
+          <strong>on-premise → Microsoft 365</strong>, správou Windows infraštruktúry a monitoringom.
+        </p>
 
-<div class="left">
+        <h2>Skúsenosti</h2>
+        <div class="item">
+          <div class="item-top">
+            <div class="item-title">IT Administrator / IT Consultant</div>
+            <div class="item-meta">7 rokov • rôzne prostredia</div>
+          </div>
+          <ul class="bullets">
+            <li>Správa <strong>Microsoft 365</strong> a <strong>Azure AD</strong> (identity, prístupy, používateľský lifecycle).</li>
+            <li>Endpoint management a politiky cez <strong>Microsoft Intune</strong> (config/compliance, nasadenie aplikácií).</li>
+            <li><strong>Migrácia z on-premise do Microsoft 365</strong> (plánovanie, rollout, podpora po migrácii).</li>
+            <li>Administrácia <strong>Windows Server</strong> a klientov Windows, troubleshooting incidentov.</li>
+            <li>Monitoring infraštruktúry cez <strong>Zabbix</strong>.</li>
+            <li><strong>LAN/WAN</strong> – správa a diagnostika (pokročilý).</li>
+          </ul>
+        </div>
 
-<h2>Profil</h2>
-<p>
-IT administrátor a konzultant s 7 rokmi skúseností v Microsoft ekosystéme,
-endpoint manažmente a infraštruktúre. Zameranie na Intune, Microsoft 365,
-Azure AD a bezpečné riadenie zariadení. Praktické skúsenosti s monitoringom,
-Windows infraštruktúrou a sieťami.
-</p>
+        <h2>Kurzy</h2>
+        <div class="item compact">
+          <div class="item-top">
+            <div class="item-title">Microsoft 365 – správa počítačov pomocou Group Policy a Intune</div>
+            <div class="item-meta">2024</div>
+          </div>
+        </div>
 
-<h2>Pracovné skúsenosti</h2>
-<div class="item">
-<strong>IT Administrator / Consultant</strong><br>
-7 rokov praxe<br>
-<ul>
-<li>Správa Microsoft 365 a Azure AD</li>
-<li>Endpoint management pomocou Intune</li>
-<li>Windows Server administrácia</li>
-<li>Monitoring infraštruktúry (Zabbix)</li>
-<li>LAN/WAN správa a troubleshooting</li>
-<li>Podpora používateľov a riešenie incidentov</li>
-</ul>
-</div>
+        <h2>Záujmy</h2>
+        <p class="muted">
+          Gym • Turistika • Bicykel • Bug bounty hunting
+        </p>
+      </section>
 
-<h2>Vzdelanie & kurzy</h2>
-<div class="item">
-Microsoft 365 – správa počítačov pomocou Group Policy a Intune (2024)
-</div>
+      <!-- RIGHT: fast scan -->
+      <aside class="side">
+        <div class="card">
+          <h3>Tech stack</h3>
+          <div class="tags">
+            <span class="tag">Intune (pokročilý)</span>
+            <span class="tag">Microsoft 365 (pokročilý)</span>
+            <span class="tag">Azure AD (pokročilý)</span>
+            <span class="tag">Windows Server (pokročilý)</span>
+            <span class="tag">Windows (pokročilý)</span>
+            <span class="tag">Zabbix (pokročilý)</span>
+            <span class="tag">LAN/WAN (pokročilý)</span>
+            <span class="tag">Hyper-V (pokročilý)</span>
+            <span class="tag">VMware (pokročilý)</span>
+            <span class="tag">Linux admin (mierne pokročilý)</span>
+            <span class="tag">GitHub (mierne pokročilý)</span>
+            <span class="tag">PowerShell (praktický)</span>
+          </div>
+          <p class="note">
+            PowerShell: viem písať a upravovať skripty “prakticky” (s dokumentáciou/Google), najmä na automatizáciu bežných úloh.
+          </p>
+        </div>
 
-<h2>Záujmy</h2>
-Gym • Turistika • Bicykel • Bug bounty hunting
+        <div class="card">
+          <h3>Jazyky</h3>
+          <div class="kv">
+            <div>Slovenčina</div><div class="muted">C1</div>
+            <div>Angličtina</div><div class="muted">B2</div>
+          </div>
+        </div>
 
-</div>
+        <div class="card">
+          <h3>Rýchle fakty</h3>
+          <div class="mini">
+            <div class="mini-row"><span>Users</span><strong>200–250</strong></div>
+            <div class="mini-row"><span>Migrácie</span><strong>On-prem → M365</strong></div>
+            <div class="mini-row"><span>Lokalita</span><strong>Bratislava</strong></div>
+          </div>
+        </div>
+      </aside>
+    </section>
 
-<div class="right">
+    <footer class="footer">
+      <small>Hosted on GitHub Pages • © <span id="year"></span> Martin Lančarič</small>
+    </footer>
+  </main>
 
-<h2>Technické zručnosti</h2>
+  <script>
+    const key = "cv_theme";
+    const root = document.documentElement;
+    const btn = document.getElementById("themeBtn");
 
-<div class="skill">Microsoft Intune — pokročilý</div>
-<div class="skill">Microsoft 365 — pokročilý</div>
-<div class="skill">Azure AD — pokročilý</div>
-<div class="skill">Windows Server — pokročilý</div>
-<div class="skill">Windows — pokročilý</div>
-<div class="skill">LAN/WAN — pokročilý</div>
-<div class="skill">Zabbix monitoring — pokročilý</div>
-<div class="skill">Linux administrácia — mierne pokročilý</div>
+    function setTheme(mode) {
+      root.dataset.theme = mode;
+      localStorage.setItem(key, mode);
+    }
 
-<h2>Jazyky</h2>
-<div>Slovenčina — C1</div>
-<div>Angličtina — B2</div>
+    const saved = localStorage.getItem(key);
+    if (saved) setTheme(saved);
+    else {
+      const prefersDark = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
+      setTheme(prefersDark ? "dark" : "light");
+    }
 
-</div>
+    btn.addEventListener("click", () => {
+      const current = root.dataset.theme === "dark" ? "dark" : "light";
+      setTheme(current === "dark" ? "light" : "dark");
+    });
 
-</section>
-
-<footer>
-Hosted on GitHub Pages
-</footer>
-
-</div>
-
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
