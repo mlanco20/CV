@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="sk">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="CV – Martin Lančarič (IT / Sysadmin / Security)" />
+  <title>Martin Lančarič – CV</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <a class="brand" href="#top">Martin Lančarič</a>
+
+      <nav class="nav">
+        <a href="#about">O mne</a>
+        <a href="#skills">Zručnosti</a>
+        <a href="#experience">Skúsenosti</a>
+        <a href="#projects">Projekty</a>
+        <a href="#education">Vzdelanie</a>
+        <a href="#contact">Kontakt</a>
+      </nav>
+
+      <div class="actions">
+        <button id="themeBtn" class="btn" type="button" aria-label="Prepnúť režim">
+          🌙/☀️
+        </button>
+        <a class="btn primary" href="#" onclick="window.print(); return false;">Print / PDF</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="top" class="container">
+    <section class="hero">
+      <div>
+        <h1>Martin Lančarič</h1>
+        <p class="subtitle">IT admin / Microsoft 365 & Intune / Sysadmin / Security-minded</p>
+
+        <div class="chips">
+          <span class="chip">Bratislava / okolie</span>
+          <span class="chip">Hybrid / Remote</span>
+          <span class="chip">English: B2-ish (work)</span>
+        </div>
+
+        <p class="lead" id="about">
+          Som IT admin/konzultant so zameraním na Microsoft ekosystém (M365, Intune, Azure AD),
+          endpoint manažment a bezpečnosť. Mám rád poriadok v infraštruktúre, automatizáciu,
+          a veci, ktoré sa dajú zmerať (logy, metriky, incidenty).
+        </p>
+
+        <div class="cta">
+          <a class="btn primary" href="#contact">Kontakt</a>
+          <a class="btn" href="#projects">Pozrieť projekty</a>
+        </div>
+      </div>
+
+      <aside class="card summary">
+        <h2>Rýchle info</h2>
+        <ul class="list">
+          <li><strong>Focus:</strong> Intune, Azure AD, M365, endpoint security</li>
+          <li><strong>Roly:</strong> IT Admin, System Engineer, Endpoint Consultant</li>
+          <li><strong>Stack:</strong> Windows, M365, PowerShell, (trochu) Linux</li>
+          <li><strong>Plus:</strong> bug bounty / security mindset</li>
+        </ul>
+      </aside>
+    </section>
+
+    <section class="grid2" id="skills">
+      <div class="card">
+        <h2>Zručnosti</h2>
+        <div class="tags">
+          <span class="tag">Microsoft Intune</span>
+          <span class="tag">Azure AD / Entra ID</span>
+          <span class="tag">Microsoft 365</span>
+          <span class="tag">Endpoint Management</span>
+          <span class="tag">Exchange (basic)</span>
+          <span class="tag">PowerShell</span>
+          <span class="tag">Windows Server (AD/DNS/GPO)</span>
+          <span class="tag">Security hygiene</span>
+          <span class="tag">Troubleshooting</span>
+          <span class="tag">Documentation</span>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>Čo viem dodať</h2>
+        <ul class="list">
+          <li>Onboarding/offboarding, governance (role, prístupy, zariadenia)</li>
+          <li>Intune policy sety: compliance, configuration, app deployment</li>
+          <li>Hardening: MFA/CA (ak relevantné), baseline-y, minimal access</li>
+          <li>Riešenie incidentov: “prečo to nejde” → “už to ide” + post-mortem</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="card" id="experience">
+      <h2>Skúsenosti</h2>
+
+      <article class="item">
+        <div class="item-head">
+          <h3>IT Consultant / Intune focus</h3>
+          <div class="meta">2023 – súčasnosť • freelance</div>
+        </div>
+        <ul class="bullets">
+          <li>Správa endpointov a Intune politik (config/compliance/app deployment).</li>
+          <li>Podpora používateľov a troubleshooting M365/Windows problémov.</li>
+          <li>Štandardizácia nastavení, dokumentácia, postupy.</li>
+        </ul>
+      </article>
+
+      <hr />
+
+      <article class="item">
+        <div class="item-head">
+          <h3>IT Administrator</h3>
+          <div class="meta">~7 rokov • rôzne prostredia</div>
+        </div>
+        <ul class="bullets">
+          <li>Windows infra, AD/DNS/GPO, user lifecycle.</li>
+          <li>Základy virtualizácie, backup/restore, monitoring.</li>
+          <li>Bezpečnostné návyky: princíp minimálnych práv, audit, patching.</li>
+        </ul>
+      </article>
+
+      <p class="hint">
+        Tip: toto si potom upravíme na konkrétne firmy/roky, aby to bolo 100% presné a silné.
+      </p>
+    </section>
+
+    <section class="grid2" id="projects">
+      <div class="card">
+        <h2>Projekty</h2>
+
+        <article class="proj">
+          <h3>SecWatch</h3>
+          <p>Osobný security projekt/brand (web, služby, šablóny, postupy).</p>
+          <p class="meta">Tech: GitHub Pages • HTML/Tailwind (voliteľné) • Security content</p>
+        </article>
+
+        <article class="proj">
+          <h3>Homelab / infra</h3>
+          <p>Testovanie M365/endpoint vecí, automatizácia, docker stacky, troubleshooting.</p>
+          <p class="meta">Tech: Docker • Windows/Linux • monitoring</p>
+        </article>
+      </div>
+
+      <div class="card" id="education">
+        <h2>Vzdelanie & certy</h2>
+        <ul class="list">
+          <li><strong>Vzdelanie:</strong> doplň názov školy</li>
+          <li><strong>Certifikácie:</strong> doplň ak máš (MS, CompTIA, …)</li>
+          <li><strong>Kurzy:</strong> doplň relevantné</li>
+        </ul>
+
+        <h2>Jazyky</h2>
+        <ul class="list">
+          <li>Slovenčina – native</li>
+          <li>Angličtina – pracovná (upravíme podľa reality)</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="card" id="contact">
+      <h2>Kontakt</h2>
+      <div class="contact">
+        <div>
+          <div class="label">Email</div>
+          <div class="value"><a href="mailto:martin@example.com">martin@example.com</a></div>
+        </div>
+        <div>
+          <div class="label">LinkedIn</div>
+          <div class="value"><a href="#" rel="noopener">doplň link</a></div>
+        </div>
+        <div>
+          <div class="label">GitHub</div>
+          <div class="value"><a href="#" rel="noopener">doplň link</a></div>
+        </div>
+        <div>
+          <div class="label">Web</div>
+          <div class="value"><a href="#" rel="noopener">doplň</a></div>
+        </div>
+      </div>
+
+      <p class="hint">
+        Kontakt údaje si len zmeň. Ak chceš anonymitu, môžeme to spraviť tak, aby email nebol priamo “klikateľný” (anti-spam).
+      </p>
+    </section>
+
+    <footer class="footer">
+      <small>© <span id="year"></span> Martin Lančarič • Hosted on GitHub Pages</small>
+    </footer>
+  </main>
+
+  <script>
+    const key = "cv_theme";
+    const root = document.documentElement;
+    const btn = document.getElementById("themeBtn");
+
+    function setTheme(mode) {
+      root.dataset.theme = mode;
+      localStorage.setItem(key, mode);
+    }
+
+    const saved = localStorage.getItem(key);
+    if (saved) setTheme(saved);
+    else {
+      // default: dark if user prefers dark
+      const prefersDark = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
+      setTheme(prefersDark ? "dark" : "light");
+    }
+
+    btn.addEventListener("click", () => {
+      const current = root.dataset.theme === "dark" ? "dark" : "light";
+      setTheme(current === "dark" ? "light" : "dark");
+    });
+
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
